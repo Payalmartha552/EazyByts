@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Trading Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Stock Trading Simulation System</h1>
+    </header>
+    <main>
+        <section id="portfolio">
+            <h2>Your Portfolio</h2>
+            <div id="portfolio-content">
+                <!-- Portfolio details will be dynamically inserted here -->
+            </div>
+        </section>
+        <section id="trading">
+            <h2>Trade Stocks</h2>
+            <form id="trade-form">
+                <label for="symbol">Stock Symbol:</label>
+                <input type="text" id="symbol" name="symbol" required>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" required>
+                <button type="submit">Buy/Sell</button>
+            </form>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
